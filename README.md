@@ -6,7 +6,9 @@ controlled approach using colored motion markers and OpenCV-based image tracking
 We implemented a custom tracking pipeline that:
 
 *Detects color markers placed on the leg
+
 *Calculates joint angles over time (coronal and sagittal planes)
+
 *Measures cadence and stride length from positional tracking
 
 Later moved Python code to XCode to utilize CoreMotion
